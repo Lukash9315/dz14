@@ -1,0 +1,185 @@
+
+
+*{
+    margin: 0px;
+}
+body{
+    max-width: 1440px;
+    margin: 100px auto;
+
+}
+main{
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 500px;
+}
+.nav-link{
+    outline: none;
+    text-decoration: none;
+    color: black;
+}
+.engnav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.eng{
+    font-family: 'Tourney';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #000000;
+    margin-right: 50px;
+}
+.navigation{
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+/* -------------------------------------------------------------- */
+.sticky {
+    display: grid;
+    justify-content: start;
+    grid-template-columns: 385px 785px;
+    grid-gap: 30px;
+    align-items: start;
+    margin-bottom: 500px;
+    margin-left: 130px;
+}
+.sticky__list li{
+    font-family: 'Francois One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #000000;
+}
+.sticky__nav {
+    position: sticky;
+    top: 0;
+    padding-top: 70px;
+}
+.sticky__nav li{
+    border-bottom: 1px solid #C9C9C9;
+}
+
+.sticky__nav li:not(:last-child) {
+    margin-bottom: 70px;
+}
+
+.line{
+    display: block;
+    width: 100px;
+    height: 8px;
+    background: black;
+    margin-bottom: 20px;
+}
+h2{
+    margin: 0px 0px 40px 0px;
+    font-family: 'Francois One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+}
+ul{
+    list-style: none;
+    padding: 0px;
+}
+.chapter{
+    font-family: 'Farro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #000000;
+}
+.main-text{
+    background-image: url(/image/bg-picture.png);
+    background-repeat: no-repeat;
+    background-position: top 70px left 277px;
+}
+.paragraph-name{
+    display: flex;
+}
+.paragraph{
+    margin: 70px 0px;
+}
+.introduction-text{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    color: #000000;
+}
+.introduction-text > span{
+    text-decoration: underline;
+}
+.core-text{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    color: #000000;
+}
+.core-text > span{
+    font-family: 'PT Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    color: #000000;  
+}
+
+
+.handling-text{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+.react-text{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    color: #000000;
+}
+.react-text > p:not(:last-child){
+    margin-bottom: 40px;
+}
+.underline-text{
+    text-decoration: underline;
+}
+.bg{
+    background: #DADADA;
+}
+.handling-text > span{
+    font-family: 'PT Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    color: #000000;
+}
