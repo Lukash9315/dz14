@@ -20,7 +20,7 @@ header{
 .nav-link{
     outline: none;
     text-decoration: none;
-    color: black;
+    color: #000000;
 }
 .engnav{
     display: flex;
@@ -47,8 +47,9 @@ header{
     line-height: 28px;
     letter-spacing: 0.03em;
     color: #000000;
+
 }
-/* -------------------------------------------------------------- */
+
 .sticky {
     display: grid;
     justify-content: start;
@@ -110,9 +111,8 @@ ul{
     color: #000000;
 }
 .main-text{
-    background-image: url(/image/bg-picture.png);
-    background-repeat: no-repeat;
-    background-position: top 70px left 277px;
+    background: url("./image/bg-pic.png") top 70px left 277px no-repeat ;
+
 }
 .paragraph-name{
     display: flex;
